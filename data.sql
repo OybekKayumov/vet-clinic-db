@@ -11,3 +11,24 @@ VALUES ('Pikachu', '7-JAN-2021', 1, false, 15.04);
 
 INSERT INTO animals (name, date_of_birth, escape_attempts, neutered, weight_kg)
 VALUES ('Devimon', '12-MAY-2017', 5, true, 11);
+
+INSERT INTO animals (name, date_of_birth, escape_attempts, neutered, weight_kg)
+VALUES ('Charmander', '08-FEB-2020', 0, false, -11);
+
+INSERT INTO animals (name, date_of_birth, escape_attempts, neutered, weight_kg)
+VALUES ('Plantmon', '15-NOV-2021', 2, true, -5.7);
+
+INSERT INTO animals (name, date_of_birth, escape_attempts, neutered, weight_kg)
+VALUES ('Squirtle', '02-APR-1993', 3, false, -12.13);
+
+INSERT INTO animals (name, date_of_birth, escape_attempts, neutered, weight_kg)
+VALUES ('Angemon', '12-JUN-2005', 1, true, -45);
+
+INSERT INTO animals (name, date_of_birth, escape_attempts, neutered, weight_kg)
+VALUES ('Boarmon', '07-JUN-2005', 7, true, 20.4);
+
+INSERT INTO animals (name, date_of_birth, escape_attempts, neutered, weight_kg)
+VALUES ('Blossom', '13-OCT-1998', 3, true, 17);
+
+INSERT INTO animals (name, date_of_birth, escape_attempts, neutered, weight_kg)
+VALUES ('Ditto', '14-MAY-2022', 4, true, 22);
