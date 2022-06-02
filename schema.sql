@@ -43,6 +43,7 @@ ALTER TABLE animals ADD owner_id INT,
 CREATE TABLE vets (
 	id SERIAL PRIMARY KEY NOT NULL,
 	name VARCHAR(100) NOT NULL,
+	age INT,
 	date_of_graduation DATE NOT NULL
 );
 

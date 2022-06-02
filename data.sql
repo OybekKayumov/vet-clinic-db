@@ -91,3 +91,15 @@ UPDATE  animals SET owner_id =
 UPDATE  animals SET owner_id = 
 	(SELECT id FROM owners WHERE full_name = 'Dean Winchester')
 	WHERE name IN ('Angemon', 'Boarmon');
+
+INSERT INTO vets (name, age, date_of_graduation)
+	VALUES ('William Tatcher', 45, '23-APR-2000');
+
+INSERT INTO vets (name, age, date_of_graduation)
+	VALUES ('Maisy Smith', 26, '17-JAN-2019');
+
+INSERT INTO vets (name, age, date_of_graduation)
+	VALUES ('Stephanie Mendez', 64, '14-MAY-1981');
+
+INSERT INTO vets (name, age, date_of_graduation)
+	VALUES ('Jack Harkness', 38, '08-JUN-2008');
