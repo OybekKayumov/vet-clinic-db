@@ -248,3 +248,6 @@ INSERT INTO visits (animals_id, vet_id,  date_of_visit)
       ( SELECT id FROM vets WHERE name = 'William Tatcher'),
       '11-JAN-2021'
     );
+
+-- Add an email column to your owners table
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
