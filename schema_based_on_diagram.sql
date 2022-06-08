@@ -60,7 +60,10 @@ CREATE TABLE histories_treatment(
 	PRIMARY KEY(id, treatment_id, medical_history_id)
 );
 
+CREATE INDEX invoices_medical_history_id_idx ON invoices(medical_history_id);
+CREATE INDEX invoice_items_invoice_id_idx ON invoice_items(invoice_id);
+CREATE INDEX invoice_items_treatment_id_idx ON invoice_items(treatment_id);
+CREATE INDEX medical_histories_patient_id_idx ON medical_histories(patient_id);
 
 CREATE INDEX ON histories_treatment (medical_history_id);
-
 CREATE INDEX ON histories_treatment (treatment_id);
